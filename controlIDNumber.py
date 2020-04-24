@@ -1,9 +1,4 @@
 
-#Turhan ÇETİN(2018123047)#
-#İsmail IŞIK(2018123037)#
-
-
-
 import re
 
 dosya = open("tckimliknolar.txt")
