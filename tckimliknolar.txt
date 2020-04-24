@@ -1,0 +1,18 @@
+Turkiye'de kimlik numaralari (kimlik no) belirli bir algoritmaya gore olusturulmustur.  
+Oncelikle kimlik numarasi 11 basamakli olmak zorundadir. 
+Kimlik Numaralari 0 ile baslamaz. Ornegin 04562272296 diye bir kimlik no yoktur.
+Ilk 9 basamak numaranin kendisi, son iki basamak ise onceki 9 basamagin dogrulayicisidir. 
+Soyleki kimlik numaralarimizin 1.,3.,5.,7.ve 9. basamaklarinin toplaminin 7 katindan 
+ 2.,4.,6. ve 8. basamaklarin toplamini cikartirsak elde ettigimiz sonucun 10 ile bolumunden 
+kalan bize kimlik numaramizin 10. basamagini verir. 
+11.yani son basamak ise ilk 10 basamagin toplaminin 10 ile bolumunden kalandir. 
+Ornek vermek gerekirse 10562272296 kimlik nosunu dikkate alalim.
+1.,3.,5.,7.ve 9. basamaklarinin toplami=1+5+2+7+2=17. Bu sayinin 7 kati=119
+2.,4.,6. ve 8. basamaklarinin toplami= 0+6+2+2=10
+119-10=99'dur ve bu sonucun 10 ile bolumunden kalan 9 dur, buda 10. basamaktir.
+Son basamagi bulmak icin ilk 10 basamagi toplayalalim: 1+0+5+6+2+2+7+2+2+9=36 olup bu sayinin 
+10 ile bolumunden kalan 6'dir, bu da kimlik nosunun son harfidir.
+Bu sekilde ornegin 25303986882 , 51073942742 , 88307850290  yada 33225763528  gecerli
+TC kimlik numaralaridir.
+Ote yandan 5107394274, 26225763528, 8243504468  yada 88184059304 gecerli kimlik 
+numaralari degildir.
